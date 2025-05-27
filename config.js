@@ -43,7 +43,7 @@ window.businessConfig = {
       price: 75,
       duration: 60,
       benefits: ["Fixes slow drains", "Eliminates odors", "Restores full function"],
-      image: "https://images.unsplash.com/photo-1616440639918-6bd996d04bc7?auto=format&fit=crop&w=600&h=400"
+      image: plumb.jpeg
     },
     {
       title: "Water Heater Repair & Installation",
@@ -51,7 +51,7 @@ window.businessConfig = {
       price: 150,
       duration: 90,
       benefits: ["Reliable hot water", "Energy efficiency", "Safe operation"],
-      image: "https://images.unsplash.com/photo-1581578017424-5c4dc0bd2976?auto=format&fit=crop&w=600&h=400"
+      image: plumb.jpeg
     },
     {
       title: "Pipe Replacement",
@@ -59,7 +59,7 @@ window.businessConfig = {
       price: 120,
       duration: 90,
       benefits: ["No more leaks", "Long-term solution", "Improved water flow"],
-      image: "https://images.unsplash.com/photo-1604079625990-2a294aad9429?auto=format&fit=crop&w=600&h=400"
+      image: plumb.jpeg
     },
     {
       title: "Emergency Plumbing",
@@ -67,7 +67,7 @@ window.businessConfig = {
       price: 200,
       duration: 60,
       benefits: ["Rapid response", "Damage prevention", "Peace of mind"],
-      image: "https://images.unsplash.com/photo-1587574293340-53e4f55f6e09?auto=format&fit=crop&w=600&h=400"
+      image: plumb.jpeg
     }
   ],
 
@@ -80,13 +80,13 @@ window.businessConfig = {
       "Water Heater & Geyser Expert"
     ],
     quote: "At Pipemasters Plumbing, we do it once, and we do it right. No mess. No fuss.",
-    photo: "https://images.unsplash.com/photo-1619115889675-4f1c3d2f5295?auto=format&fit=crop&w=800&h=1000"
+    photo: plumb.jpeg
   },
 
   hero: {
     title: "Your Cape Town Plumbing Experts",
     subtitle: "Fast, affordable plumbing services you can trust — available 7 days a week.",
-    backgroundImage: "https://images.unsplash.com/photo-1581578017424-5c4dc0bd2976?auto=format&fit=crop&w=1920&h=1080"
+    backgroundImage: plumb.jpeg
   },
 
   social: {
