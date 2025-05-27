@@ -35,7 +35,7 @@ window.businessConfig = {
       price: 65,
       duration: 60,
       benefits: ["Prevent water damage", "Save water", "Quick response"],
-      image: "https://images.unsplash.com/photo-1581579438340-df30d9d86b14?auto=format&fit=crop&w=600&h=400"
+      image: plumb.jpeg
     },
     {
       title: "Drain Cleaning",
