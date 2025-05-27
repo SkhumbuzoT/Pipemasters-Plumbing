@@ -470,7 +470,7 @@ function initializeContact() {
                     </div>
                     <div class="map-placeholder">
                         <h3 class="card-title mb-6">Find Us</h3>
-                        <div class="map-container" style="background-image: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400');">
+                        <div class="map-container" style="background-image: url('https://www.shutterstock.com/search/happy-customer-plumbing');">
                             <div class="map-overlay">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <p style="font-weight: 500; color: var(--charcoal-800);">Interactive Map</p>
