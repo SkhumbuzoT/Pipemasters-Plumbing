@@ -32,40 +32,30 @@ window.businessConfig = {
     {
       title: "Leak Detection & Repair",
       description: "Accurate detection and fast repair of hidden leaks to prevent damage and save water.",
-      price: 65,
-      duration: 60,
       benefits: ["Prevent water damage", "Save water", "Quick response"],
       image: "plumb.jpeg"
     },
     {
       title: "Drain Cleaning",
       description: "Unclogging blocked drains with advanced tools to restore flow quickly.",
-      price: 75,
-      duration: 60,
       benefits: ["Fixes slow drains", "Eliminates odors", "Restores full function"],
       image: "plumb.jpeg"
     },
     {
       title: "Water Heater Repair & Installation",
       description: "Efficient installation or repair of geysers and water heaters for homes and businesses.",
-      price: 150,
-      duration: 90,
       benefits: ["Reliable hot water", "Energy efficiency", "Safe operation"],
       image: "plumb.jpeg"
     },
     {
       title: "Pipe Replacement",
       description: "Replacing old, burst, or corroded pipes with modern, durable solutions.",
-      price: 120,
-      duration: 90,
       benefits: ["No more leaks", "Long-term solution", "Improved water flow"],
       image: "plumb.jpeg"
     },
     {
       title: "Emergency Plumbing",
       description: "24/7 emergency response for urgent leaks, blockages, or broken fixtures.",
-      price: 200,
-      duration: 60,
       benefits: ["Rapid response", "Damage prevention", "Peace of mind"],
       image: "plumb.jpeg"
     }
