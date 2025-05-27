@@ -1,164 +1,147 @@
-// Business Configuration - Change these details for each client
+// Business Configuration for Pipemasters Plumbing
 window.businessConfig = {
-  // Business Identity
-  businessName: "Serenity",
-  tagline: "Massage Therapy",
-  therapistName: "Sarah Williams",
-  therapistCredentials: "Licensed Massage Therapist (LMT)",
-  yearsExperience: 8,
-  clientsServed: "500+",
-  
-  // Contact Information
+  businessName: "Pipemasters Plumbing",
+  tagline: "Reliable Plumbing, Done Right",
+  therapistName: "Austin Ngcobo",
+  therapistCredentials: "Licensed Master Plumber (LMP)",
+  yearsExperience: 15,
+  clientsServed: "1000+",
+
   contact: {
-    phone: "(555) 123-4567",
-    email: "info@serenitymassage.com",
+    phone: "086 789 9807",
+    email: "austin@pipemastersplumbing.co.za",
     address: {
-      street: "123 Wellness Lane",
-      city: "Peaceful Valley",
-      state: "CA",
-      zip: "90210"
+      street: "77 Fisher Road, Winchester",
+      city: "Cape Town",
+      state: "Western Cape",
+      zip: ""
     }
   },
-  
-  // Business Hours
+
   hours: {
-    monday: "9:00 AM - 8:00 PM",
-    tuesday: "9:00 AM - 8:00 PM", 
-    wednesday: "9:00 AM - 8:00 PM",
-    thursday: "9:00 AM - 8:00 PM",
-    friday: "9:00 AM - 8:00 PM",
-    saturday: "9:00 AM - 6:00 PM",
-    sunday: "10:00 AM - 4:00 PM"
+    monday: "08:00 - 17:00",
+    tuesday: "08:00 - 17:00",
+    wednesday: "08:00 - 17:00",
+    thursday: "08:00 - 17:00",
+    friday: "08:00 - 17:00",
+    saturday: "08:00 - 17:00",
+    sunday: "08:00 - 17:00"
   },
-  
-  // Services Offered
+
   services: [
     {
-      title: "Swedish Massage",
-      description: "A gentle, relaxing massage that promotes circulation and reduces muscle tension using long, flowing strokes.",
-      price: 85,
+      title: "Leak Detection & Repair",
+      description: "Accurate detection and fast repair of hidden leaks to prevent damage and save water.",
+      price: 65,
       duration: 60,
-      benefits: ["Stress relief", "Improved circulation", "Mental relaxation"],
-      image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+      benefits: ["Prevent water damage", "Save water", "Quick response"],
+      image: "https://images.unsplash.com/photo-1581579438340-df30d9d86b14?auto=format&fit=crop&w=600&h=400"
     },
     {
-      title: "Deep Tissue Massage",
-      description: "Targets deeper layers of muscle and connective tissue to release chronic tension and knots.",
-      price: 105,
+      title: "Drain Cleaning",
+      description: "Unclogging blocked drains with advanced tools to restore flow quickly.",
+      price: 75,
       duration: 60,
-      benefits: ["Pain relief", "Muscle recovery", "Increased mobility"],
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+      benefits: ["Fixes slow drains", "Eliminates odors", "Restores full function"],
+      image: "https://images.unsplash.com/photo-1616440639918-6bd996d04bc7?auto=format&fit=crop&w=600&h=400"
     },
     {
-      title: "Hot Stone Massage",
-      description: "Heated stones placed on key points help muscles relax deeply while promoting healing energy flow.",
-      price: 125,
-      duration: 75,
-      benefits: ["Deep relaxation", "Improved sleep", "Enhanced circulation"],
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+      title: "Water Heater Repair & Installation",
+      description: "Efficient installation or repair of geysers and water heaters for homes and businesses.",
+      price: 150,
+      duration: 90,
+      benefits: ["Reliable hot water", "Energy efficiency", "Safe operation"],
+      image: "https://images.unsplash.com/photo-1581578017424-5c4dc0bd2976?auto=format&fit=crop&w=600&h=400"
     },
     {
-      title: "Prenatal Massage",
-      description: "Specially designed for expecting mothers to reduce pregnancy discomfort and promote wellness.",
-      price: 95,
-      duration: 60,
-      benefits: ["Reduces swelling", "Relieves back pain", "Improves sleep quality"],
-      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+      title: "Pipe Replacement",
+      description: "Replacing old, burst, or corroded pipes with modern, durable solutions.",
+      price: 120,
+      duration: 90,
+      benefits: ["No more leaks", "Long-term solution", "Improved water flow"],
+      image: "https://images.unsplash.com/photo-1604079625990-2a294aad9429?auto=format&fit=crop&w=600&h=400"
     },
     {
-      title: "Sports Massage",
-      description: "Targeted treatment for athletes to enhance performance, prevent injury, and speed recovery.",
-      price: 110,
+      title: "Emergency Plumbing",
+      description: "24/7 emergency response for urgent leaks, blockages, or broken fixtures.",
+      price: 200,
       duration: 60,
-      benefits: ["Injury prevention", "Faster recovery", "Enhanced flexibility"],
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
-    },
-    {
-      title: "Aromatherapy Massage",
-      description: "Combines therapeutic massage with essential oils to enhance relaxation and emotional well-being.",
-      price: 100,
-      duration: 60,
-      benefits: ["Emotional balance", "Stress reduction", "Mood enhancement"],
-      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+      benefits: ["Rapid response", "Damage prevention", "Peace of mind"],
+      image: "https://images.unsplash.com/photo-1587574293340-53e4f55f6e09?auto=format&fit=crop&w=600&h=400"
     }
   ],
-  
-  // About Section Content
+
   about: {
-    bio: "With over 8 years of experience in therapeutic massage, I'm passionate about helping clients achieve optimal wellness through the healing power of touch. My journey began with a deep desire to help others find relief from stress and physical tension.",
+    bio: "With 15 years of experience, Austin Ngcobo and the Pipemasters team deliver fast, efficient, and trusted plumbing solutions throughout Cape Town. From routine maintenance to emergency response, we’ve got you covered.",
     certifications: [
-      "Licensed Massage Therapist (LMT)",
-      "Certified in Swedish & Deep Tissue Massage", 
-      "Specialized in Stress Relief & Pain Management",
-      "500+ Happy Clients Served"
+      "Licensed Master Plumber (LMP)",
+      "Certified Leak Detection Specialist",
+      "1000+ Clients Served in Cape Town",
+      "Water Heater & Geyser Expert"
     ],
-    quote: "Every session is tailored to your unique needs. My goal is to create a safe, nurturing space where healing can naturally occur.",
-    photo: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000"
+    quote: "At Pipemasters Plumbing, we do it once, and we do it right. No mess. No fuss.",
+    photo: "https://images.unsplash.com/photo-1619115889675-4f1c3d2f5295?auto=format&fit=crop&w=800&h=1000"
   },
-  
-  // Hero Section
+
   hero: {
-    title: "Restore Your Balance",
-    subtitle: "Experience the healing power of therapeutic massage in a tranquil, professional environment designed for your complete wellness.",
-    backgroundImage: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
+    title: "Your Cape Town Plumbing Experts",
+    subtitle: "Fast, affordable plumbing services you can trust — available 7 days a week.",
+    backgroundImage: "https://images.unsplash.com/photo-1581578017424-5c4dc0bd2976?auto=format&fit=crop&w=1920&h=1080"
   },
-  
-  // Social Media Links
+
   social: {
     facebook: "#",
-    instagram: "#", 
+    instagram: "#",
     yelp: "#",
     google: "#"
   },
-  
-  // Statistics
+
   stats: {
-    happyClients: "500+",
-    yearsExperience: "8",
-    massageTypes: "6", 
-    satisfactionRate: "98%"
+    happyClients: "1000+",
+    yearsExperience: "15",
+    massageTypes: "5+ Services",
+    satisfactionRate: "99%"
   },
-  
-  // Testimonials
+
   testimonials: [
     [
       {
-        name: "Maria Johnson",
-        initials: "MJ",
-        review: "Sarah's Swedish massage was exactly what I needed. Her gentle touch and calming presence helped me release months of built-up stress. I left feeling completely renewed.",
-        service: "Swedish Massage Client"
+        name: "James Daniels",
+        initials: "JD",
+        review: "Austin responded within the hour and fixed our burst pipe fast. Very professional and polite!",
+        service: "Emergency Plumbing"
       },
       {
-        name: "David Thompson", 
-        initials: "DT",
-        review: "As an athlete, I've tried many massage therapists, but Sarah's sports massage technique is outstanding. She really understands muscle recovery and injury prevention.",
-        service: "Sports Massage Client"
+        name: "Thandi Mokoena",
+        initials: "TM",
+        review: "Our geyser wasn’t working and they sorted it same day. Fair pricing and great service.",
+        service: "Water Heater Repair"
       },
       {
-        name: "Lisa Chen",
-        initials: "LC", 
-        review: "The hot stone massage was pure bliss! Sarah created such a peaceful environment, and the heated stones melted away all my tension. Highly recommend!",
-        service: "Hot Stone Massage Client"
+        name: "Shaun Meyer",
+        initials: "SM",
+        review: "We’ve used Pipemasters for two renovations. Always reliable, neat, and high quality work.",
+        service: "Pipe Replacement"
       }
     ],
     [
       {
-        name: "Rachel Parker",
-        initials: "RP",
-        review: "During my pregnancy, Sarah's prenatal massage sessions were a godsend. She made me feel so comfortable and helped relieve all my back pain. Professional and caring!",
-        service: "Prenatal Massage Client"
+        name: "Lebo Khumalo",
+        initials: "LK",
+        review: "Highly recommend them for drain cleaning — super quick and didn’t leave a mess behind.",
+        service: "Drain Cleaning"
       },
       {
-        name: "James Miller",
-        initials: "JM",
-        review: "I was skeptical about deep tissue massage, but Sarah's expertise changed my mind. She worked out knots I didn't even know I had. The relief was incredible!",
-        service: "Deep Tissue Massage Client"
+        name: "Nina Petersen",
+        initials: "NP",
+        review: "Their leak detection tools are top-notch. They fixed a problem we didn’t even know we had.",
+        service: "Leak Repair"
       },
       {
-        name: "Anna Kim",
-        initials: "AK",
-        review: "The aromatherapy massage was a sensory journey! Sarah's choice of essential oils perfectly complemented the massage, leaving me feeling balanced and rejuvenated.",
-        service: "Aromatherapy Massage Client"
+        name: "Sipho Zulu",
+        initials: "SZ",
+        review: "Efficient, honest, and affordable. We’ll definitely call Austin again.",
+        service: "General Plumbing"
       }
     ]
   ]
