@@ -158,9 +158,6 @@ function initializeServices() {
                         <div class="card-content">
                             <h3 class="card-title">${service.title}</h3>
                             <p class="card-text">${service.description}</p>
-                            <div class="price-duration">
-                                <span class="price">$${service.price}</span>
-                                <span class="duration">${service.duration} minutes</span>
                             </div>
                             <ul class="benefits-list">
                                 ${service.benefits.map(benefit => `
